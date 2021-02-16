@@ -26,3 +26,10 @@ $(document).ready(function(){
       $('.site-content-wrapper').toggleClass('scaled');
    })
 });
+
+var typed = new Typed(".typing", {
+   strings: ["WEBSITE DEVELOPMENT", "GRAPHIC DESIGNING", "DIGITAL MARKETING", "PRODUCT DEVELOPMENT"],
+   typeSpeed: 100,
+   backSpeed: 60,
+   loop: true
+});
